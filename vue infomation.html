@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+		href="style/style.css">
+    <title>Vue Information stagiaire</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1 class="heading">Stagiaire</h1>
+            <h3 class="title">S'il vous plait remplir cette formulaire</h3>
+        </header>
+        <br>
+        <div class="container">
+            <form action="stagaire" method="post">
+                <div class="row">
+                    <div class="col-75">
+                <label for="nom">Nom&nbsp;&nbsp;:&nbsp;</label>
+                <input type="text" id="Nom" name="Nom" placeholder="Ecrire votre Nom">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-75">
+               <label for="prenom">Prénom&nbsp;&nbsp;:&nbsp;</label>
+               <input type="text" id="Prenom" name="Prenom" placeholder="Ecrire votre Prénom">
+                    </div>
+                </div>
+
+               <label for="niveau">Niveau&nbsp;&nbsp;:&nbsp;</label>
+               <input type="text" id="niveau" name="Niveau" >
+               <br>
+                    <div class="row">
+                    <div class="col-25">        
+                <label for="specialité">Specialité&nbsp;&nbsp;:&nbsp;</label>
+                </div>
+                <div class="col-75">
+                    <select id="specialité" name="specialité">
+                        <option value="BI">Devops & Cloud</option>
+                      <option value="Web">Developement Web</option>
+                      <option value="Mobile">Developement Mobile </option>
+                      <option value="Designe">Ui/UX Designe</option>
+                      <option value="Marketing">Marketing</option>
+                      <option value="3d">Designe 3d</option>
+                      <option value="AD">Administration des affaires</option>
+                      <option value="Compta">Comptabilité</option>
+                      <option value="Finance">Finance</option>
+                      <option value="BI">Bussines Intelligence</option>
+                    </select>
+                </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-75">
+                     <label for="Etablissement">Etablissement&nbsp;&nbsp;:&nbsp;</label>
+        <input type="text" id="eta" name="etabisement" placeholder="Ecrire votre Etablissement(universitaire ou centre de Formation)">
+        </div></div>
+        <div class="row">
+            <div class="col-75">
+               <label for="mail">E-mail&nbsp;&nbsp;:&nbsp;</label>
+        <input type="email" id="mail" name="user_mail" placeholder="Ecrire votre e-mail ">
+            </div></div>
+            <div class="row">
+                <div class="col-75">
+        <label for="numero telé">Numero_telé&nbsp;&nbsp;:&nbsp;</label>
+        <input type="nmber" id="numero_tele" name="Numero_telé" placeholder="Ecrire votre Numero">
+                </div></div>
+                <div class="row">
+                    <div class="col-75">
+        <label for="adresse">Adresse&nbsp;&nbsp;:&nbsp;</label>
+        <input type="text" id="Adresse" name="Adresse" placeholder="Ecrire votre Adresse" > 
+                    </div>
+                </div>
+         
+        
+        <br>
+       
+        </form>
+      
+        </div>
+
+        <button class="clkbtn" type="btn">Validé</button>
+
+    </section>
+    
+</body>
+</html>
